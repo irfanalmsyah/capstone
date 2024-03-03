@@ -1,11 +1,11 @@
-# Packages
+## Packages
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer -v 7.0.0
 dotnet add package DotNetEnv
 
-# Database
+## Database
 Create capstone database
 
-# .env
+## .env
 1. Create DefaultConnection variable
 2. Assign with your local connection string db 
 

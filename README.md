@@ -1,7 +1,7 @@
 ## Packages
 
-dotnet add package Microsoft.EntityFrameworkCore.SqlServer -v 7.0.0
-dotnet add package DotNetEnv
+1. dotnet add package Microsoft.EntityFrameworkCore.SqlServer -v 7.0.0
+2. dotnet add package DotNetEnv
 
 ## Database
 

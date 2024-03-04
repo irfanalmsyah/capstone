@@ -6,7 +6,12 @@ dotnet add package DotNetEnv
 Create capstone database
 
 ## .env
-1. Create DefaultConnection variable
-2. Assign with your local connection string db 
+1. Create .env file
+2. Create "DefaultConnection" in .env file
+2. Assign the variable with your local connection string SQL Server
 
-Ex connection string: Data Source=(SERVER);Initial Catalog=(DBNAME);Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False
+### Ex connection string: Data Source=(SERVER);Initial Catalog=(DBNAME);Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False
+
+## How to run server
+1. dotnet dev-certs https --trust
+2. dotnet run --launch-profile https

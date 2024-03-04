@@ -6,7 +6,7 @@ dotnet add package DotNetEnv
 ## Database
 
 1. Setting database authentication -> **Windows Authentication**
-2. In databases, add new database "capstone"
+2. In Databases folder, add new database "capstone"
 
 ## .env
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mirza\\Documents\\Coding\\capstoneweb\\capstone\\webapi\\webapi.csproj": {}
+    "C:\\Users\\mirza\\Documents\\Coding\\capstoneweb\\webapi\\webapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mirza\\Documents\\Coding\\capstoneweb\\capstone\\webapi\\webapi.csproj": {
+    "C:\\Users\\mirza\\Documents\\Coding\\capstoneweb\\webapi\\webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mirza\\Documents\\Coding\\capstoneweb\\capstone\\webapi\\webapi.csproj",
+        "projectUniqueName": "C:\\Users\\mirza\\Documents\\Coding\\capstoneweb\\webapi\\webapi.csproj",
         "projectName": "webapi",
-        "projectPath": "C:\\Users\\mirza\\Documents\\Coding\\capstoneweb\\capstone\\webapi\\webapi.csproj",
+        "projectPath": "C:\\Users\\mirza\\Documents\\Coding\\capstoneweb\\webapi\\webapi.csproj",
         "packagesPath": "C:\\Users\\mirza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mirza\\Documents\\Coding\\capstoneweb\\capstone\\webapi\\obj\\",
+        "outputPath": "C:\\Users\\mirza\\Documents\\Coding\\capstoneweb\\webapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mirza\\AppData\\Roaming\\NuGet\\NuGet.Config",

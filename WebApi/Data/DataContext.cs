@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc.TagHelpers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
-namespace webapi.Data
+namespace WebApi.Data
 {
     public partial class DataContext : DbContext
     {

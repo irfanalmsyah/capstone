@@ -19,4 +19,6 @@ Data Source=_(SERVER)_;Initial Catalog=_(DBNAME)_;Integrated Security=True;Conne
 
 ## How to run server
 
-1. dotnet run
+```bash
+dotnet run --project WebApi
+```

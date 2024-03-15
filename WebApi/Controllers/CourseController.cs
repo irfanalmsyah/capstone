@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-using webapi.Data;
-using webapi.Models;
+using WebApi.Data;
 using WebApi.Models;
 
-namespace webapi.Controllers
+namespace WebApi.Controllers
 {
     [ApiController]
     [Route("api/courses")]
@@ -48,6 +48,13 @@ namespace webapi.Controllers
             }
             catch (Exception ex)
             {
+                var innerException = ex.InnerException;
+                if (innerException is SqlException sqlException && sqlException.Number == 2601)
+                {
+                    // Error number 2601 is for unique constraint violation (for SQL Server)
+                    return Conflict(new { Message = "Course with the same code already exists"});
+                }
+
                 Console.WriteLine($"Exception: {ex.Message}");
 
                 return StatusCode(500, new { Message = "Internal Server Error", Data = ex.Message });

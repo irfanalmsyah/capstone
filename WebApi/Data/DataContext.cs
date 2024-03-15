@@ -1,8 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using webapi.Models;
 using WebApi.Models;
 
-namespace webapi.Data
+namespace WebApi.Data
 {
     public partial class DataContext : DbContext
     {
@@ -16,6 +15,10 @@ namespace webapi.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Course>()
+                .HasIndex(c => c.Code)
+                .IsUnique();
+
             modelBuilder.Entity<Course>()
                 .HasMany(c => c.CourseTypes)
                 .WithOne(ct => ct.Courses)

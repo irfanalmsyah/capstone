@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using WebApi.Models;
 
-namespace webapi.Models
+namespace WebApi.Models
 {
     public class Course
     {

@@ -6,7 +6,7 @@ using WebApi.Models;
 namespace WebApi.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("/[controller]")]
     public class SemestersController : ControllerBase
     {
         private readonly DataContext _context;
